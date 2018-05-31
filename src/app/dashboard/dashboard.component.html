@@ -1,0 +1,6 @@
+<button (click)="logout()" class="button">Logout</button>
+
+
+<p>{{user?.email}}</p>
+
+<img *ngIf="user !== null" [src]="user?.profilePictureUrl" [alt]="user?.lastName" [title]="user?.firstName">

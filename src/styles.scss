@@ -1,0 +1,25 @@
+/* You can add global styles to this file, and also import other style files */
+
+.button{
+  background: linear-gradient(120deg,#5263a3 9%,#2677f8 75%,#fe007a 120%);
+  position: relative;
+  display: inline-block;
+  padding: 1.4em 3em;
+  margin-top: 10px;
+  width: 100%;
+  border: 0;
+  border-radius: 4px;
+  -webkit-box-shadow: 0 9px 14px 0 rgba(62,108,200,.49);
+  box-shadow: 0 9px 14px 0 rgba(62,108,200,.49);
+  color: #fff;
+  font-family: brandon-grotesque,sans-serif;
+  font-weight: 600;
+  font-size: 1em;
+  line-height: normal;
+  text-decoration: none;
+  text-align: center;
+  outline: none;
+  text-transform: uppercase;
+  cursor: pointer;
+  -webkit-appearance: none;
+}
